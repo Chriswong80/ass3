@@ -686,6 +686,35 @@ settings might yield lower and more consistent resistance.</p>
 </div>
 </div>
 </section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3
+id="impact-of-process-parameters-on-part-resistance-machine-1">Impact of
+Process Parameters on Part Resistance (Machine 1)</h3>
+<p>To understand the effect of varying <code>Temperature</code> and
+<code>Pressure</code> on <code>PartResistance</code> for Machine 1, we
+performed an ANOVA analysis. The upper specification limit (USL) for
+<code>PartResistance</code> is 10, with no lower specification
+limit.</p>
+<p>The ANOVA results indicate a highly statistically significant effect
+of both <code>Temperature</code> and <code>Pressure</code> on
+<code>PartResistance</code> (p-values &lt; 2e-16). However, the
+interaction effect between <code>Temperature</code> and
+<code>Pressure</code> is not statistically significant (p-value =
+0.704). This suggests that while temperature and pressure individually
+influence part resistance, their combined effect is not significantly
+different from the sum of their individual effects for Machine 1. The
+box plots on the right visually summarize the distribution of
+<code>PartResistance</code> across different combinations of these
+process parameters.</p>
+</div><div class="column" style="width:50%;">
+<iframe data-src="media/plots/resistance_boxplot.html" width="100%" height="500px" style="border:none;">
+</iframe>
+</div>
+</div>
+</section>
 <section id="bibliography" class="slide level1">
 <h1>Bibliography</h1>
 <div id="refs" class="references csl-bib-body" role="list">

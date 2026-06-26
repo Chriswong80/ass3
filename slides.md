@@ -107,3 +107,21 @@ The ANOVA results (which you can find in the output of the R cell above) will in
 :::
 ::::
 
+
+----
+
+:::: {.columns}
+::: {.column width="50%"}
+### Impact of Process Parameters on Part Resistance (Machine 1)
+
+To understand the effect of varying `Temperature` and `Pressure` on `PartResistance` for Machine 1, we performed an ANOVA analysis. The upper specification limit (USL) for `PartResistance` is 10, with no lower specification limit.
+
+The ANOVA results indicate a highly statistically significant effect of both `Temperature` and `Pressure` on `PartResistance` (p-values < 2e-16). However, the interaction effect between `Temperature` and `Pressure` is not statistically significant (p-value = 0.704). This suggests that while temperature and pressure individually influence part resistance, their combined effect is not significantly different from the sum of their individual effects for Machine 1. The box plots on the right visually summarize the distribution of `PartResistance` across different combinations of these process parameters.
+
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/resistance_boxplot.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
