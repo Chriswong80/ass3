@@ -125,3 +125,22 @@ The ANOVA results indicate a highly statistically significant effect of both `Te
 :::
 ::::
 
+
+----
+
+:::: {.columns}
+::: {.column width="50%"}
+### Process Parameters Influence on Part Resistance (Machine 1)
+
+Further analysis on Machine 1 reveals how specific `Temperature` and `Pressure` settings affect `PartResistance`. The ANOVA results previously indicated that both parameters significantly influence part resistance, while their interaction was not significant. 
+
+This boxplot visualization demonstrates the distribution of `PartResistance` for different combinations of `Temperature` and `Pressure` for Machine 1. It allows us to visually confirm that certain temperature and pressure combinations tend to yield lower and more consistent `PartResistance` values, which is desirable given the upper specification limit (USL) of 10.
+
+Experimenting with these parameters is crucial for optimizing the manufacturing process to minimize defects.
+
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/machine1_resistance_boxplot.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
